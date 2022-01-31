@@ -10,8 +10,8 @@ if x > 1000:
 
 print("\n")
 
-def my_function(z):
-    for i in range(1,z+1):
+def my_function(x):
+    for i in range(1, x+1):
         print(f"This is line number {i}")
 
 my_function(x)
